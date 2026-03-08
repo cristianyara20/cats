@@ -61,3 +61,53 @@ https://github.com/cristianyara20/cats
 
 Aplicación ejecutándose:
 http://localhost:5173
+
+
+
+
+# CATS - Galería de Razas de Gatos
+
+Proyecto desarrollado en React + Vite integrado con servicios de Microsoft Azure.
+
+## Arquitectura
+
+El proyecto utiliza una arquitectura de tres capas:
+
+Presentation Tier
+Aplicación React ejecutándose en el navegador.
+
+Application Tier
+API backend desplegada en Azure App Service.
+
+Data Tier
+Azure SQL Database y Azure Blob Storage.
+
+## Patrones aplicados
+
+Component Pattern  
+Repository Pattern  
+Observer Pattern  
+
+## Principios SOLID
+
+S - Single Responsibility  
+Cada componente tiene una sola responsabilidad.
+
+O - Open Closed  
+Los componentes reciben props y pueden extenderse sin modificar su código.
+
+D - Dependency Inversion  
+Los servicios abstraen la fuente de datos.
+
+## CI/CD
+
+Se utiliza GitHub Actions para automatizar el build y despliegue.
+
+## Tecnologías
+
+React  
+Vite  
+Tailwind CSS  
+Azure Blob Storage  
+Azure SQL Database  
+GitHub Actions
