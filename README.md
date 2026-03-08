@@ -14,3 +14,50 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Proyecto Cats 🐱
+
+Aplicación web desarrollada con:
+- Vite
+- JavaScript
+- TailwindCSS
+
+## Instalación
+
+1. Clonar el repositorio
+
+git clone https://github.com/cristianyara20/cats.git
+
+2. Entrar a la carpeta
+
+cd cats
+
+3. Instalar dependencias
+
+npm install
+
+4. Ejecutar el proyecto
+
+npm run dev
+
+La aplicación se ejecutará en:
+http://localhost:5173
+
+
+
+## Estructura del proyecto
+
+/public → recursos estáticos  
+/src → componentes y código principal  
+index.html → página principal  
+package.json → dependencias del proyecto  
+vite.config.js → configuración de Vite  
+tailwind.config.js → configuración de Tailwind
+
+
+
+Repositorio:
+https://github.com/cristianyara20/cats
+
+Aplicación ejecutándose:
+http://localhost:5173
